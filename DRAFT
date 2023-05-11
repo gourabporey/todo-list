@@ -1,0 +1,39 @@
+What is a Todo list?
+-> A Todo list is a list of todos 
+------
+What can be done with a todo list?
+-> Add item to the list
+-> Show current todos in the list
+-> Check any todo 
+-> Remove any todo from the list
+-> Update the todo list
+
+Where to store the todos?
+-> Todos will be stored inside a file in a specific format
+{
+  todos: [
+    { 
+      name: "I have to do it by tommorow",
+      priority: "H",
+      Date: 20/5/2023
+    }
+  ]
+}
+
+What is a todo?
+{
+  name: "Do this",
+  priority: "H/L/M",
+  Date: dd/mm/yyyy
+}
+
+Change todo name
+Change the date of the todo 
+change priority
+
+How the user will interact with the system?
+  node main.js todos
+  node main.js add "I have to do this" "H" "Date"
+  node main.js mark <number>
+  node main.js unmark <number>
+  ndoe main.js delete <number>
